@@ -93,5 +93,7 @@ def init_db():
         create_table()
 
 if __name__ == '__main__':
+    print 'hello'
     init_db()
     application.run(host='0.0.0.0')
+    
